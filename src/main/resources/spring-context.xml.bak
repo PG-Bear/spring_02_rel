@@ -10,7 +10,7 @@
 ">
 
     <!--    加载外部资源文件    -->
-    <context:property-placeholder location="my.properties"/>
+    <context:property-placeholder location="classpath:*.properties"/>
     <!--    扫描Bean，指定icu.insomniac包下    -->
     <context:component-scan base-package="icu.insomniac"/>
 
